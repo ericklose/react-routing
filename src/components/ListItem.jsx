@@ -1,11 +1,11 @@
 var React = require('react');
 var ListItem = React.createClass({
   render: function() {
-    return {
+    return (
       <li>
-        <h4>(this.props.ingredient)</h4>
+        <h4>{this.props.ingredient}</h4>
       </li>
-    };
+    );
   }
 });
 
